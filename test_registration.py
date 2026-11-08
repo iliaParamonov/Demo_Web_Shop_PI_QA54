@@ -8,8 +8,8 @@ from selenium.webdriver.support import expected_conditions as EC
 
 
 def test_successful_registration():
-    email = "Test@yandex.com"
-    password = "testqwerty"
+    email = "Test1@yandex.com"
+    password = "test1qwerty"
 
     driver = webdriver.Chrome()
     driver.maximize_window()
